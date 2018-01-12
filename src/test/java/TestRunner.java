@@ -13,8 +13,8 @@ import org.testng.annotations.Test;
         format = {
                 "pretty",
                 "html:target/cucumber-reports/cucumber-pretty",
-                "json:target/cucumber-reports/CucumberTestReport.json",
-                "rerun:target/cucumber-reports/rerun.txt"
+                "json:target/cucumber-reports/json-reports/CucumberTestReport.json",
+                "rerun:target/cucumber-reports/rerun-reports/rerun.txt"
         })
 public class TestRunner {
     private TestNGCucumberRunner testNGCucumberRunner;

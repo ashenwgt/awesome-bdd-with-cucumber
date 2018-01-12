@@ -76,7 +76,7 @@
                         <configuration>
                             <projectName>MyProjectName</projectName>  <!-- Replace with project name -->
                             <outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
-                            <cucumberOutput>target/cucumber-reports/CucumberTestReport.json</cucumberOutput>
+                            <cucumberOutput>target/cucumber-reports/json-reports</cucumberOutput>
                             <buildNumber>1</buildNumber>
                             <parallelTesting>false</parallelTesting>
                         </configuration>
